@@ -1,0 +1,72 @@
+/* Kajla Didi - Animation Experience */
+
+.kajla-stage {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 560px;
+  overflow: hidden;
+  background: #101c27;
+  isolation: isolate;
+}
+
+.kajla-stage canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.kajla-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 28px 20px;
+  color: white;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,.35),
+    transparent 35%,
+    transparent 65%,
+    rgba(0,0,0,.55)
+  );
+}
+
+.kajla-title {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: clamp(28px, 6vw, 54px);
+  text-align: center;
+  text-shadow: 0 3px 18px #000;
+}
+
+.kajla-poem-line {
+  max-width: 700px;
+  margin: auto auto 35px;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: clamp(20px, 4vw, 32px);
+  line-height: 1.8;
+  text-align: center;
+  text-shadow: 0 3px 15px #000;
+}
+
+.kajla-controls {
+  position: absolute;
+  bottom: 18px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  z-index: 5;
+}
+
+.kajla-controls button {
+  padding: 10px 20px;
+  border: 1px solid rgba(255,255,255,.35);
+  border-radius: 30px;
+  color: white;
+  background: rgba(0,0,0,.4);
+  backdrop-filter: blur(10px);
+}
