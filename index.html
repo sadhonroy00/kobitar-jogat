@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="কবিতার জগৎ — শব্দের আড়ালে লুকিয়ে থাকা পৃথিবী।">
+  <title>কবিতার জগৎ | Kobitar Jogot</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./"><span class="brand-mark">ক</span><span data-i18n="brand">কবিতার জগৎ</span></a>
+    <nav><a class="active" href="./" data-i18n="navHome">হোম</a><a href="poems/" data-i18n="navPoems">কবিতা</a><a href="stories/" data-i18n="navStories">গল্প</a></nav>
+    <button class="lang-btn" id="languageToggle" type="button">EN</button>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="eyebrow">শব্দ • অনুভূতি • কল্পনা</p>
+        <h1 data-i18n="heroTitle">প্রতিটি শব্দের আছে<br><em>একটি পৃথিবী।</em></h1>
+        <p class="hero-text" data-i18n="heroText">কবিতা ও গল্পকে শুধু পড়া নয়—তাদের অনুভব করুন জীবন্ত দৃশ্যের ভেতর দিয়ে।</p>
+        <div class="hero-actions"><a class="button primary" href="poems/" data-i18n="explorePoems">কবিতা আবিষ্কার করুন</a><a class="text-link" href="stories/" data-i18n="exploreStories">গল্প পড়ুন →</a></div>
+      </div>
+      <div class="hero-art" role="img" aria-label="চাঁদ, বাঁশবন ও পুকুরের কল্পনাময় দৃশ্য">
+        <div class="moon"></div><div class="hill hill-back"></div><div class="hill hill-front"></div>
+        <div class="water"></div><div class="firefly f1"></div><div class="firefly f2"></div><div class="firefly f3"></div>
+        <div class="art-caption" data-i18n="heroCaption">একটি কবিতা। অসংখ্য অনুভূতি।</div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><div><p class="eyebrow" data-i18n="startJourney">আপনার যাত্রা শুরু হোক</p><h2 data-i18n="browseTitle">কী পড়তে চান আজ?</h2></div></div>
+      <div class="category-grid">
+        <a class="category-card poem-card" href="poems/"><span class="category-icon">✧</span><h3 data-i18n="poemsTitle">কবিতার জগৎ</h3><p data-i18n="poemsDesc">ছন্দ, স্মৃতি আর অনুভূতির সংগ্রহ।</p><span class="card-arrow">↗</span></a>
+        <a class="category-card story-card" href="stories/"><span class="category-icon">❧</span><h3 data-i18n="storiesTitle">গল্পের জগৎ</h3><p data-i18n="storiesDesc">চরিত্র, কল্পনা আর অজানা পথের গল্প।</p><span class="card-arrow">↗</span></a>
+      </div>
+    </section>
+    <section class="section featured-section">
+      <div class="section-heading"><div><p class="eyebrow" data-i18n="featured">নির্বাচিত রচনা</p><h2 data-i18n="featuredTitle">প্রথম যাত্রা</h2></div><a class="text-link" href="poems/" data-i18n="seeAll">সব দেখুন →</a></div>
+      <div id="featuredWorks" class="work-grid"><p class="muted">রচনা লোড হচ্ছে…</p></div>
+    </section>
+  </main>
+  <footer><a class="brand footer-brand" href="./">কবিতার জগৎ</a><p data-i18n="footer">শব্দের আড়ালে লুকিয়ে থাকা পৃথিবী।</p><small>© <span id="year"></span> Kobitar Jogot</small></footer>
+  <script src="js/app.js"></script>
+  <script src="js/home.js"></script>
+</body></html>
