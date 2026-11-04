@@ -70,3 +70,23 @@
   background: rgba(0,0,0,.4);
   backdrop-filter: blur(10px);
 }
+.kajla-character {
+  position: absolute;
+  width: clamp(150px, 28vw, 280px);
+  height: auto;
+  left: 50%;
+  bottom: 12%;
+  transform: translateX(-50%);
+  z-index: 3;
+  filter: drop-shadow(0 8px 18px rgba(0,0,0,.4));
+  animation: kajlaFloat 3s ease-in-out infinite;
+}
+
+@keyframes kajlaFloat {
+  0%, 100% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, -8px);
+  }
+}
