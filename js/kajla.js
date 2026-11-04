@@ -8,14 +8,22 @@ window.KajlaAnimation = {
 
     container.innerHTML = `
       <div class="kajla-stage">
-        <canvas id="kajlaCanvas"></canvas>
-        <div class="kajla-overlay">
-          <h1 class="kajla-title">কাজলা দিদি</h1>
-          <p class="kajla-poem-line">
-            বাঁশ-বাগানের মাথার উপর চাঁদ উঠেছে ওই...
-          </p>
-        </div>
-      </div>
+       <div class="kajla-stage">
+  <canvas id="kajlaCanvas"></canvas>
+
+  <img
+    src="images/kajla-didi.png"
+    class="kajla-character"
+    alt="কাজলা দিদি"
+  >
+
+  <div class="kajla-overlay">
+    <h1 class="kajla-title">কাজলা দিদি</h1>
+    <p class="kajla-poem-line">
+      বাঁশ-বাগানের মাথার উপর চাঁদ উঠেছে ওই...
+    </p>
+  </div>
+</div>
     `;
 
     const canvas = container.querySelector("#kajlaCanvas");
