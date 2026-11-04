@@ -1,0 +1,35 @@
+{
+  "poems": [
+    {
+      "id": "kajla-didi",
+      "type": "poem",
+      "title": {
+        "bn": "কাজলা দিদি",
+        "en": "Kajla Didi"
+      },
+      "author": {
+        "bn": "যতীন্দ্রমোহন বাগচী",
+        "en": "Jatindramohan Bagchi"
+      },
+      "description": {
+        "bn": "এক শিশুর স্মৃতি, মায়ের নীরবতা আর হারিয়ে যাওয়া দিদিকে ঘিরে এক মায়াময় কবিতা।",
+        "en": "A tender poem about childhood memories, a mother's silence, and a beloved sister who is gone."
+      },
+      "status": "prototype",
+      "featured": true,
+      "theme": "moonlit",
+      "scenes": [
+        "বাঁশবনের চাঁদ",
+        "নীরব ঘর",
+        "পুতুলের বিয়ে",
+        "শিউলি ও বুলবুলি",
+        "আবার সেই রাত"
+      ],
+      "content": {
+        "bn": "বাঁশ-বাগানের মাথার উপর চাঁদ উঠেছে ওই,\nমাগো আমার শোলক্-বলা কাজলা দিদি কই?\n\nপুকুর ধারে লেবুর তলে, থোকায় থোকায় জোনাক জ্বলে,\nফুলের গন্ধে ঘুম আসে না, একলা জেগে রই,\nমাগো আমার কোলের কাছে কাজলা দিদি কই?",
+        "en": "The moon has risen above the bamboo grove;\nMother, where is my Kajla Didi?\n\nFireflies glow beneath the lemon tree by the pond;\nThe scent of flowers keeps me awake.\nMother, where is my sister?"
+      }
+    }
+  ],
+  "stories": []
+}
